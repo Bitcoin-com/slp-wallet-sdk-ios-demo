@@ -1,0 +1,40 @@
+{
+  "name": "SLPWallet",
+  "version": "0.1.0",
+  "summary": "SLP Wallet SDK for iOS",
+  "description": "SLP Wallet SDK for iOS",
+  "homepage": "https://github.com/Bitcoin-com/slp-wallet-sdk-ios",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jbdtky": "jb@bitcoin.com"
+  },
+  "swift_versions": "4.0",
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source": {
+    "git": "https://github.com/Bitcoin-com/slp-wallet-sdk-ios.git",
+    "branch": "v0.1.0"
+  },
+  "source_files": "SLPWallet/**/*.swift",
+  "dependencies": {
+    "RxSwift": [
+      "~> 4.0"
+    ],
+    "RxCocoa": [
+      "~> 4.0"
+    ],
+    "Moya/RxSwift": [
+      "~> 11.0"
+    ],
+    "KeychainAccess": [
+      "~> 3.1.2"
+    ],
+    "BitcoinKit": [
+      "~> 1.1.0"
+    ]
+  }
+}

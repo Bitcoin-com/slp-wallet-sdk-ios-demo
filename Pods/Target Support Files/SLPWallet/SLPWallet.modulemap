@@ -1,0 +1,6 @@
+framework module SLPWallet {
+  umbrella header "SLPWallet-umbrella.h"
+
+  export *
+  module * { export * }
+}

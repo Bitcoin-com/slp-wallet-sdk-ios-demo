@@ -1,0 +1,6 @@
+framework module Pods_SLPWalletDemoUITests {
+  umbrella header "Pods-SLPWalletDemoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
