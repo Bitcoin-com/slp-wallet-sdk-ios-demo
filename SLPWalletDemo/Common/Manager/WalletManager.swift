@@ -25,7 +25,8 @@ class WalletManager {
     
     init() {
         do {
-            wallet = try SLPWallet(.testnet)
+            // For testnet -> Change as well in WalletManager -> .testnet
+            wallet = try SLPWallet(.mainnet)
             setup()
         } catch {
             fatalError("It should be able to construct a wallet")

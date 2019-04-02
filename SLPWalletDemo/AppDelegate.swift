@@ -19,7 +19,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
         SLPWalletConfig.setRestAPIKey("BITBOX:slpsdkH6aIcXEApC4wXQfqqPH")
-        SLPWalletConfig.setRestURL("https://trest.bitcoin.com/v2")
+        SLPWalletConfig.setRestURL("https://rest.bitcoin.com/v2")
+        
+        // For testnet -> Change as well in WalletManager -> .testnet
+        // SLPWalletConfig.setRestURL("https://trest.bitcoin.com/v2")
+        
         
         let frame = UIScreen.main.bounds
         window = UIWindow(frame: frame)
